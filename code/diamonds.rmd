@@ -1,20 +1,22 @@
 ---
-title: "Let's Give Our Report A Title"
-author: "Your Name"
+title: "Diamonds are Forever"
+author: "Imelda Finn"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: html_document
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
+
+library("tidyverse")
+
 ```
 
 # Header 1 - Using R Markdown 
 
 ## Header 2 - This is a Sub-Header
 
-The `diamonds` dataset is a built-in dataset of the `ggplot` package. Yesterday, we analysed this data in an R script file. Today, we want to create a HTML document in which we present our findings. In the process, we will learn a little bit about how R Markdown files work.
+The `diamonds` dataset is a built-in dataset of the `ggplot` package. Yesterday, we analysed this data in an R script file. Today, we want to create a HTML document in which we present our findings. In the process, we will learn a little bit about how R Markdown files work.` <!--comment -->
 
 The current file you are reading is an R Markdown document, which outputs to a HTML document. It has the extension .rmd. It looks similar to a script file (.R), except in the banner above the file window you should see a couple of additional buttons - "Knit" and "+C".
 
